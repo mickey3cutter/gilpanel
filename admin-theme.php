@@ -6,6 +6,7 @@ Plugin URI: http://mickey3cutter.com/plugins/gilpanel.zip
 Author: Gilmedia
 Author uri: https://gilmedia.ca
 Version: 1.1
+~Current Version:1.1~
 */
 
 //Update
