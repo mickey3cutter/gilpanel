@@ -6,7 +6,6 @@ Plugin URI: http://mickey3cutter.com/plugins/gilpanel.zip
 Author: Gilmedia
 Author uri: https://gilmedia.ca
 Version: 1.1
-~Current Version:1.1~
 */
 
 //Update
@@ -30,7 +29,7 @@ function github_plugin_updater_test_init() {
 			'sslverify' => true,
 			'requires' => '4.0',
 			'tested' => '4.5.2',
-			'readme' => 'admin-theme.php',
+			'readme' => 'README.md',
 			'access_token' => '',
 		);
 
