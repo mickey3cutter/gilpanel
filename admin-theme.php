@@ -2,10 +2,9 @@
 
 /*
 Plugin Name: Gilpanel
-Plugin URI: http://mickey3cutter.com/plugins/gilpanel.zip
 Author: Gilmedia
 Author uri: https://gilmedia.ca
-Version: 1.1
+Version: 1.2
 */
 
 //Update
@@ -71,6 +70,9 @@ function m3c_remove_menus(){
 	$pages_old = $GLOBALS[ 'admin_page_hooks' ];
 	$pages_new = get_option('m3c_menu_positions', true);
 	$pages = explode(',', $pages_new);
+	if($pages[0]=='dashboard' || $pages_new=='1'){
+		$pages = array_keys($pages_old);
+	}
 	foreach ($pages as $page) {
 		if(isset($option[$page])==1) { remove_menu_page( $page ); }
 	}
