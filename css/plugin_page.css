@@ -1,0 +1,8 @@
+.content{background: #fff;padding: 15px;font-family: 'Open Sans', sans-serif; width: 400px;margin: 25px;}
+legend{color: #212121;border-bottom: 1px solid #e5e5e5;font-size: 18px; display: block; padding-bottom: 10px; margin-bottom:  15px; width: 100%; padding-top: 15px;}
+.form-group label{ margin-bottom: 10px; display: block; font-size: 14px;}
+#submit{background: #0073aa; color: #fff; border: none; box-shadow: none;     padding: 8px 15px; cursor: pointer; transition: all 0.3s;}
+#submit:hover{background: #000; }
+.form-group .input_open {display: none ;}
+.m3c_custom-fields{display: none !important;}
+#gil_list a{ text-decoration: none; color: #000;}
