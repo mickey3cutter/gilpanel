@@ -4,7 +4,7 @@
 Plugin Name: Gilpanel
 Author: Gilmedia
 Author uri: https://gilmedia.ca
-Version: 1.3 
+Version: 1.2.1
 */
 
 //Update
