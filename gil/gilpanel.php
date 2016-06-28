@@ -9,9 +9,9 @@ html body.login{
 	background: #1A1A1A;
 }
 .login h1 a{
-	background: url(<?php echo plugin_dir_url( __FILE__ ) ?>img/gilmedia-logo.png) no-repeat;
-	width: 100%;
-	height: 40px;
+	background: url(<?php echo plugin_dir_url( __FILE__ ) ?>img/gilmedia-logo.png) no-repeat !important;
+	width: 100% !important;
+	height: 40px !important;
 }
 body.wp-core-ui .button-primary{
 	position: relative;
@@ -35,14 +35,7 @@ body.wp-core-ui .button-primary{
 .login #nav,.login #backtoblog{
 	display: none;
 }
-#login{
-	position: absolute;
-	left: 50%;
-	margin-left: -160px;
-	top: 50%;
-	margin-top: -200px;
-	padding-top: 0;
-}
+
 #loginform input:focus{
 	border-color: <?php echo $color; ?>;
 	box-shadow: none;
